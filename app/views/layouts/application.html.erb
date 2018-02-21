@@ -12,6 +12,8 @@
     <%= render 'partials/nav' %>
     <div class="container">
       <%= yield %>
+      <a href="#" onclick="this.style.backgroundColor='#990000'">Paint it red inline</a>
+      <a href="#" onclick="paintIt(this, '#990000')">Paint it red coffeescript</a>
     </div>
   </body>
 </html>

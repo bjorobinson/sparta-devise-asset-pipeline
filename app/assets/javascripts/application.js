@@ -15,3 +15,13 @@
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
+
+
+$('.container').click(paintIt)
+
+function paintIt(element,backgroundColor,textColor){
+  element.style.backgroundColor = backgroundColor
+  if textColor?{
+    element.style.color = textColor
+  }
+}
