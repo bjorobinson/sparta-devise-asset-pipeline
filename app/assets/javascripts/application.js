@@ -16,12 +16,16 @@
 //= require turbolinks
 //= require_tree .
 
+$(document).ready(function(){
 
-$('.container').click(paintIt)
+  $('#test').click(function(){
+    $('#test ul').append("<li>Banging your head against a wall burns 150 calories an hour.</li>");
+  })
+  $('#show').click(function(){
+    $('#test').show();
+  })
+  $('#hide').click(function(){
+    $('#test').hide();
+  })
 
-function paintIt(element,backgroundColor,textColor){
-  element.style.backgroundColor = backgroundColor
-  if textColor?{
-    element.style.color = textColor
-  }
-}
+});

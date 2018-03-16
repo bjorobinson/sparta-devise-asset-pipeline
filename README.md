@@ -1,24 +1,11 @@
-# README
+# Devise Asset Pipeline
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A task to make a small application that must meet the following criteria:
 
-Things you may want to cover:
+* Must contain devise authentication
+* Must contain two resources
+* Must be styled in Bootstrap
+* Sign in with a username or email, and only display one of the resources if you are logged in.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To run the file, in the repository location, type:
+`rails s` and find the local server running in `localhost:3000`.
